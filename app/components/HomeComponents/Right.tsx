@@ -12,6 +12,7 @@ import {
   Mic,
   AudioLines,
   SmilePlus,
+  Play,
 } from "lucide-react";
 import { TooltipTrigger } from "@/components/ui/tooltip";
 import { TooltipContent } from "@/components/ui/tooltip";
@@ -187,9 +188,11 @@ const Right = () => {
         {/* Sent */}
         <div className="w-fit px-4 py-2 rounded-full bg-blue-500 dark:bg-blue-500 text-white ml-auto">
           <div className="flex flex-row items-center">
+            <Play className="text-white mr-2" />
             <AudioLines className="text-white" />
             <AudioLines className="text-white" />
             <AudioLines className="text-white" />
+            <p className="text-sm text-white font-medium ml-2">1:23</p>
           </div>
         </div>
         <p className="px-2 text-xs text-slate-700 dark:text-gray-400 ml-auto">
@@ -297,7 +300,7 @@ const Right = () => {
             <input
               type="text"
               placeholder="Start typing..."
-              className="w-full rounded-full bg-slate-200 dark:bg-gray-700 px-4 py-2"
+              className="w-full rounded-full bg-slate-200 dark:bg-gray-700 px-4 py-2 text-black dark:text-white font-medium"
             />
           </div>
           <button>

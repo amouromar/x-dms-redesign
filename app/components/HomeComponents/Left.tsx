@@ -92,8 +92,8 @@ const Left = () => {
           <Link href="/">More</Link>
         </li>
         {/* Post */}
-        <li className="w-[80%] mx-auto flex flex-row items-center justify-center gap-4 font-bold bg-blue-700 hover:bg-blue-500 dark:hover:bg-blue-500 px-4 py-4 rounded-full cursor-pointer">
-          <Link href="/" className="text-center text-white">
+        <li className="w-[80%] mx-auto flex flex-row items-center justify-center gap-4 font-bold bg-gray-900 dark:bg-white hover:bg-gray-700 dark:hover:bg-gray-200 px-4 py-4 rounded-full cursor-pointer">
+          <Link href="/" className="text-center text-white dark:text-black">
             Post
           </Link>
         </li>
